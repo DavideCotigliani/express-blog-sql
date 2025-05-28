@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 3000
 const blogRouter = require("./routers/blog")
+const mysql = require('./data/db')
+
 app.use(express.static('public'));
 
 app.use(express.json());
