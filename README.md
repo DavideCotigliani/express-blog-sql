@@ -10,6 +10,7 @@ Inseriamo un console.log nella logica di connessione e proviamo ad avviare l’a
 Milestone 2
 Facciamo sì che l’API di INDEX restituisca la lista di post recuperata dal database in formato JSON
 Verifichiamo su Postman che la risposta sia corretta
+
 Milestone 3
 Facciamo sì che l’API di DESTROY permetta di eliminare un post dal database
 Verifichiamo su Postman che la chiamata non dia errore e risponda 204
