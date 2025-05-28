@@ -17,7 +17,19 @@ const show = (req, res) => {
     res.send("post con id: " + req.params.id)
 }
 
+const destroy = (req, res) => {
+    //recupero id
+    const id = req.params.id;
+    // query
+    connection.query("DELETE FROM posts WHERE id = ?", [id], (err) => {
+        //funzione di callback ha solo un parametro perché destroy deve restituire il codice di stato 204
+        if (err) return res.status(500).json({ error: "Database query failed" + err });
+    })
+
+}
+
 module.exports = {
     index,
-    show
+    show,
+    destroy
 }

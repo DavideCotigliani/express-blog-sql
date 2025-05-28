@@ -15,6 +15,7 @@ Milestone 3
 Facciamo sì che l’API di DESTROY permetta di eliminare un post dal database
 Verifichiamo su Postman che la chiamata non dia errore e risponda 204
 Verifichiamo su MySQL Workbench che il post venga effettivamente rimosso
+
 Milestone 4
 Facciamo sì che l’API di SHOW restituisca il post desiderato in formato JSON
 Verifichiamo su Postman che la risposta sia corretta
