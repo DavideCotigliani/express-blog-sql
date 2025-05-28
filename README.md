@@ -20,5 +20,6 @@ Milestone 4
 Facciamo sì che l’API di SHOW restituisca il post desiderato in formato JSON
 Verifichiamo su Postman che la risposta sia corretta
 Numero di push: minimo 8
+
 Bonus:
 Far sì che la SHOW restituisca il post comprensivo di tag, recuperandoli grazie alla relazione tra post e tags, esistente sul database
