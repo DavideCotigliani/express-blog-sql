@@ -24,6 +24,8 @@ const destroy = (req, res) => {
     connection.query("DELETE FROM posts WHERE id = ?", [id], (err) => {
         //funzione di callback ha solo un parametro perché destroy deve restituire il codice di stato 204
         if (err) return res.status(500).json({ error: "Database query failed" + err });
+        //restituisco il codice di stato
+        res.sendStatus(204)
     })
 
 }
